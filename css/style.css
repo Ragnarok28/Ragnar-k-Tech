@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.navbar-brand {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 2.3rem !important;
+    padding: 0 3rem;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 90vh;
+}
+
+.nav-item {
+    padding: 0 3rem;
+}
+
+.nav-item:hover {
+    background-color: #ddd !important;
+    transition: 0.3s ease-in-out;
+}
+
+.about {
+    padding: 3rem 0;
+}
+
+.about h1 {
+        display: flex;
+        justify-content: center;
+        font-weight: 700;
+        text-transform: uppercase;
+}
+
+.card-title {
+    font-size: 2.0rem;
+    padding: 0.5rem 0;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: black;
+}
+
+.card-img-overlay {
+    width: 63%;
+    margin: 2rem 2rem;
+}
+
+.team {
+    padding: 3rem 0;
+}
+
+.team h1 {
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.team .container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.team img {
+    height: 25rem;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+@media (max-width: 760px) {
+    
+    .about h1 {
+        display: flex;
+        justify-content: center;
+        padding: 0.5rem 0;
+    }
+    
+    .card-title {
+        font-size: 1.4rem;
+        width: 100%;
+    }
+
+    .card-text {
+        font-size: 0.9rem;
+        background-color: #ddd;
+    }
+
+    .team {
+        padding: 0.5rem 0;
+    }
+
+    .team .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.contact {
+    padding: 3.5rem 0;
+    width: 100%;
+}
+
+.content {
+    padding: 2rem 0;
+}
+
+.contact h1 {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 420px) {
+    .contact {
+        padding: 0.8rem 0;
+    }
+
+    .card-img-overlay {
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+    }
+
+    .card-text {
+        font-size: 0.75rem;
+        margin: 0 0.5rem;
+    }
+
+    .card-title {
+        background-color: #ddd;
+    }
+
+    .carousel-item img {
+        height: 50vh;
+    }
+
+    .team h5 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .team p {
+        display: flex;
+        justify-content: center;
+        padding: 0.5rem 0;
+    }
+
+    .team a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 365px) {
+    .card-text {
+        font-size: 0.55rem;
+    }
+}

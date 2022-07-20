@@ -169,4 +169,8 @@ h1 {
     .card-text {
         font-size: 0.55rem;
     }
+    .card-title {
+        width: 100%;
+        font-size: 1.3rem;
+    }
 }

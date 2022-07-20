@@ -140,6 +140,7 @@ h1 {
     }
 
     .card-title {
+        padding: 0;
         background-color: #ddd;
     }
 
@@ -148,8 +149,10 @@ h1 {
     }
 
     .team h5 {
+        background-color: white;
         display: flex;
         justify-content: center;
+        align-items: center;
     }
 
     .team p {
@@ -162,15 +165,35 @@ h1 {
         display: flex;
         justify-content: center;
         align-items: center;
+        margin: 0.5rem 0;
     }
 }
 
 @media (max-width: 365px) {
+    .card-img-overlay {
+        padding: 0;
+        margin: 1rem 0.5rem;
+    }
+    .card-text {
+        font-size: 0.67rem;
+    }
+
+    .card-title {
+        height: 4.5rem;
+        padding: 0;
+        display: flex;
+        width: 100%;
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 325px) {
     .card-text {
         font-size: 0.55rem;
     }
-    .card-title {
-        width: 100%;
-        font-size: 1.2rem;
+
+    .navbar-brand {
+        font-size: 2rem;
+        padding: 0;
     }
 }

@@ -79,6 +79,35 @@ h1 {
     object-position: center;
 }
 
+.team a:hover {
+    color:darkred;
+}
+
+
+.team_description {
+    width: 100%;
+    padding: 2rem 0;
+}
+
+.team_container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.team_box {
+    width: 60%;
+    padding: 1.5rem 0;
+}
+
+.team_description h2 {
+    display: flex;
+    justify-content: center;
+}
+
+
 @media (max-width: 760px) {
     
     .about h1 {
@@ -124,8 +153,12 @@ h1 {
 }
 
 @media (max-width: 420px) {
+    .carousel {
+        padding: 2rem 0;
+    }
+
     .contact {
-        padding: 0.8rem 0;
+        padding: 1.2rem 0;
     }
 
     .card-img-overlay {
@@ -145,7 +178,7 @@ h1 {
     }
 
     .carousel-item img {
-        height: 50vh;
+        height: 66vh;
     }
 
     .team h5 {
@@ -183,7 +216,7 @@ h1 {
         padding: 0;
         display: flex;
         width: 100%;
-        font-size: 1.2rem !important;
+        font-size: 1.2rem;
     }
 }
 
@@ -196,4 +229,65 @@ h1 {
         font-size: 2rem;
         padding: 0;
     }
+
+    .card-title {
+        font-size: 1.1rem !important;
+        padding-right: 0.6rem !important;
+    }
+}
+
+.footer {
+    padding: 0.3rem 0;
+    font-size: 1.3rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer a {
+    text-decoration: none;
+    padding: 0 5px;
+}
+
+.footer a:hover {
+    color: #ddd !important;
+    transition: 0.3s ease-in;
+}
+
+.footer-addition {
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    font-size: 14px;
+    padding-top: 6px;
+    padding-right: 2rem;
+}
+
+@media (max-width: 560px) {
+    .footer {
+        font-size: 0.85rem;
+    }
+
+    .footer-addition {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 360px) {
+    .footer {
+        font-size: 0.70rem;
+    }
+
+    .footer-addition {
+        font-size: 8px;
+    }
+}
+
+.contact input:hover {
+    color: #df4759;
+    transition: 0.3s ease-in-out;
 }
